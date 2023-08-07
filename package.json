@@ -1,0 +1,25 @@
+{
+  "name": "tuiter-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web Server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioyebchen/tuiter-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Fabio Yeboles Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabioyebchen/tuiter-node-server-app/issues"
+  },
+  "homepage": "https://github.com/fabioyebchen/tuiter-node-server-app#readme"
+}
