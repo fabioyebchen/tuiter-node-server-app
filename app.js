@@ -6,7 +6,6 @@ import session from "express-session";
 import HelloController from "./controllers/hello-controller.js";
 import UserController from "./users/users-controller.js";
 import TuitsController from "./controllers/tuits/tuits-controller.js";
-import AuthController from "./users/auth-controller.js";
 
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING;
 const port = process.env.PORT || 4000;
@@ -35,7 +34,6 @@ app.use(session(sessionOptions));
 TuitsController(app);
 HelloController(app);
 UserController(app);
-AuthController(app);
 
 mongoose.connect(CONNECTION_STRING);
 app.listen(port);
